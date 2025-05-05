@@ -1,0 +1,75 @@
+@import url("reset.css");
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  font-size: 16px;
+}
+.header {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  padding: 40px 0;
+  background-color: rgb(246, 222, 189);
+  margin-bottom: 30px;
+}
+.main {
+  max-width: 80%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+section>h2{
+	font-size: 25px;
+	font-weight: 500;
+}
+.question {
+  margin: 20px 0;
+}
+button {
+  width: 100%;
+  padding: 15px 0;
+  font-size: 20px;
+  background-color: rgb(246, 222, 189);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 5px 0px 0px black;
+  transition: all 0.3s;
+  top: 0;
+}
+button:hover {
+  background-color: rgb(169, 143, 107);
+  top: 3px;
+  box-shadow: 0 2px 0px 0px black;
+}
+.answer {
+  margin: 10px 0;
+  padding: 10px;
+  display: none;
+  background-color: rgb(247, 236, 220);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+.answer > p {
+  line-height: 1.5;
+  margin: 10px 0;
+}
+.answer > p > span {
+  color: rgb(115, 88, 54);
+  font-style: oblique;
+  text-decoration: underline;
+  text-decoration-color: rgb(114, 7, 7);
+}
+.answer.active {
+  display: block;
+}
+footer {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 40px 0;
+  background-color: rgb(246, 222, 189);
+}
